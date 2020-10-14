@@ -3,12 +3,40 @@
   .aligncenter {
       text-align: center;
   }
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  }
+  li {
+  display: inline;
+  }
+  .navbar {
+  background-color: grey;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
   </style>
 
 <html>
-<head></head>
+<head>
+  <ul>
+    <li>About</li>
+    <li>Store</li>
+    <li style="float:right">Gmail</li>
+    <li style="float:right">Images</li>
+  </ul>
+
+</head>
 <body>
 <div class="aligncenter">
+
+  <div style="width:500px;height:100px;border:0px solid #000;"></div>
+
 <img alt = "Google" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width = "272" height = "92">
 </div>
 
@@ -19,6 +47,15 @@
     <button> I'm Feeling Lucky </button>
 </form>
 </div>
+
+<div style="width:500px;height:100px;border:0px solid #000;"></div>
+
+<div class="navbar">
+  <a href="#privacy">Privacy</a>
+  <a href="#terms">Terms</a>
+  <a href="#settings">Settings</a>
+</div>
+
 </body>
 
 </html>
